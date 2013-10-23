@@ -8,6 +8,5 @@ Pod::Spec.new do |s|
   s.description  = 'Properties animatable in AUIAnimatableText and not in UILabel: textColor, text, font, fontSize.'
   s.platform     = :ios
   s.source_files = 'Library/*.{h,m}'
-  s.clean_paths  = 'Project'
   s.framework    = 'CoreText', 'QuartzCore', 'CoreGraphics', 'UIKit'
 end
